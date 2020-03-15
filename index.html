@@ -2,28 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Train Scheduler</title>
 </head>
 
-<body>
+<body style="background-color: #E5EAE8;">
     
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" style="background-color: #808F85;">
         <div class="container">
-          <h1 class="display-4">Train Scheduler</h1>
-          <p class="lead">Set up and see when your train will arrive!</p>
+          <h1 class="display-4" style="color: #E5EAE8">Train Scheduler</h1>
+          <p class="lead" style="color: #E5EAE8">Set up and see when your train will arrive!</p>
         </div>
       </div>
 
 <!-- Info Here -->
 
-  <div class="container">
+  <div class="container" style="padding: 20px;">
     <div class="row justify-content-center">
       <div class="card" style="width: 100%;">
-        <div class="card-header">
+        <div class="card-header" style="background-color: #595959; color: #E5EAE8;">
           Current Train Scheduler
         </div>
 
@@ -47,14 +47,14 @@
 
 <!-- Form Here -->
 
-  <div class="container">
+  <div class="container" id="train-adder" style="padding: 20px 20px 80px 20px;">
     <div class="row justify-content-center">
       <div class="card" style="width: 100%;">
-        <div class="card-header">
+        <div class="card-header" style="background-color: #595959; color: #E5EAE8;">
           Add Train
         </div>
       
-        <form>
+        <form style="margin: 20px;">
           <div class="form-group">
               <label for="name">Train Name</label>
               <input id="name" class="form-control form-control-sm" type="text" placeholder="Midnight Train">
@@ -71,7 +71,7 @@
               <label for="frequency">Frequency (min)</label>
               <input id="frequency" class="form-control form-control-sm" type="text" placeholder="22">
           </div>
-          <input id="submit" class="btn btn-primary" type="submit" value="Submit">
+          <input id="submit" class="btn btn-primary" style="background-color: #91C499; border: none;" type="submit" value="Submit">
       </form>
       </div>
     </div>
