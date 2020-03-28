@@ -1,6 +1,6 @@
 # Train-Scheduler
 
-### Week 7 Homework \
+### Week 7 Homework
 **About This Homework**
 
 This project incorporates Firebase to host arrival and departure data. The app will retrieve and manipulate this information with Moment.js.

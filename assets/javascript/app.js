@@ -36,12 +36,6 @@ var firebaseConfig = {
     });
   });
 
-	// 	$("#train-name-input").val("");
-	// 	$("#dest-input").val("");
-	// 	$("#firstTrain-input").val("");
-	// 	$("#freq-input").val("");
-	// });
-
   database.ref().on("child_added", function(childSnapshot) {
     console.log(childSnapshot.val().name);
     console.log(childSnapshot.val().location);
